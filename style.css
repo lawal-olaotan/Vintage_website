@@ -739,7 +739,7 @@ br{
     }
     
     .list_container{
-        height: 90vh;
+        height: 100vh;
         width: 100vw;
         display: flex;
         justify-content: center;
@@ -747,9 +747,19 @@ br{
         background-color:#00BF80 ;
     }
 
-    form.waitform{
-        height: 80%;
-     }
+    .list_form{
+        height: 70vh;
+        width: 600px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: #FFFFFF;
+        padding: 25px;
+        text-align: center;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    }
 
     .waitform button{
         font-family: "Roboto", sans-serif;
@@ -766,19 +776,7 @@ br{
         cursor: pointer;
     }
     
-    .list_form{
-        height: 70vh;
-        width: 600px;
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        background: #FFFFFF;
-        padding: 45px;
-        text-align: center;
-        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    }
+   
 
     .list_form h1{
         font-size: 2rem;
@@ -788,7 +786,7 @@ br{
     .list_form p {
         font-size: 1.5rem;
         font-weight: 400;
-        margin-bottom: 20px;
+        margin-bottom:20px;
     }
     .list_form input,.list_form select {
         font-family: "Roboto", sans-serif;
