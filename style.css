@@ -152,11 +152,11 @@ nav{
 
 form{
     
-    height: 75%;
+    height: 50%;
     width: 100%;
     display:flex;
     flex-flow: column wrap;
-    gap: 14px;
+    gap: 6px;
 }
 
 
@@ -767,7 +767,7 @@ br{
     }
     
     .list_form{
-        height: 60vh;
+        height: 70vh;
         width: 600px;
         display: flex;
         flex-flow: column wrap;
@@ -790,11 +790,6 @@ br{
         font-weight: 400;
         margin-bottom: 20px;
     }
-
-    
-
-    
-
     .list_form input,.list_form select {
         font-family: "Roboto", sans-serif;
         outline: 0;
