@@ -159,8 +159,9 @@ form{
     gap: 6px;
 }
 
-
-
+.waitform{
+    margin-top: 30px;
+}
 .input{
     height: 48px;
     outline: none;
