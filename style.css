@@ -153,9 +153,9 @@ nav{
 }
 
 form{
-    height: 40%;
+    height:auto;
     width: 100%;
-    justify-content: space-between;
+    justify-content:center;
     display:flex;
     flex-flow: column wrap;
 
@@ -173,18 +173,18 @@ form{
     font-size: 14px;
   
 }
-
-input:focus{
-    border:3px solid #00BF80;
+textarea{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
 }
 
-/* input:invalid{
-    border: 2px solid red;
-} */
-
-input:valid{
-    border: 2px solid #00BF80;
-}
 
 textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     display: block;
@@ -205,23 +205,14 @@ textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     text-align:left;
   }
 
-textarea{
-    border-radius: 8px;
-    font-size: 1rem;
-    padding: 24px;
-    background-color: transparent;
-    border:2px solid #BDBDBD ;
-}
-
 
 form button{
     border: none;
-    border-radius: 8px;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 400;
     padding: 16px 24px;
     background-color: #00BF80;
-    color:black;
+    color:#FFFFFF;
 }
 
 
@@ -675,6 +666,7 @@ br{
 
     .hero_contact{
         height: 70vh;
+        gap: 30px;
     }
 
      .hero_content { 
@@ -707,7 +699,7 @@ br{
 
     .hero_content h1{
         font-size: 4rem;
-        font-weight: 900;
+        font-weight: 700;
         margin-bottom:24px;
     }
     
@@ -724,11 +716,10 @@ br{
     }
 
     form{
-        height: 80%;
+        height:auto;
         width: 80%;
         display:flex;
         flex-flow: column wrap;
-        gap: 10px;
         justify-content: center;
     }
 
@@ -807,12 +798,10 @@ br{
         margin-right: 20px;
     }
     
-    
     .hero_btn a .black{
         color: white;
         background:black;
     }
-    
     
     .hero_img {
         background-position: center;
