@@ -159,9 +159,6 @@ form{
     gap: 6px;
 }
 
-.waitform{
-    margin-top: 30px;
-}
 .input{
     height: 48px;
     outline: none;
@@ -569,7 +566,7 @@ br{
     align-items: center;
     }
 
-x.footer_logo{
+.footer_logo{
     color: black;
     font-size: 3rem;
     font-weight:900;
@@ -636,7 +633,6 @@ x.footer_logo{
       order: 2;
     }
 
-
     /* Button up from tablet screen */
     .menu li.button a {
       padding: 10px 15px;
@@ -664,13 +660,10 @@ x.footer_logo{
     }
 /* end of nav bar */
 
-
-
     .hero_container{
         height: 80vh;
     }
    
-  
     .hero_main{
         height: 60vh;
         padding:0 64px ;
@@ -711,15 +704,6 @@ x.footer_logo{
         padding:30px 0 ;
     }
 
-    form{
-        height: 80%;
-        width: 80%;
-        display:flex;
-        flex-flow: column wrap;
-        gap: 10px;
-    }
-
-
     .hero_content h1{
         font-size: 4rem;
         font-weight: 900;
@@ -737,7 +721,16 @@ x.footer_logo{
     color: white;
     font-size: 1.5rem;
     }
-    
+
+    form{
+        height: 80%;
+        width: 80%;
+        display:flex;
+        flex-flow: column wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
     .list_container{
         height: 100vh;
         width: 100vw;
@@ -752,7 +745,7 @@ x.footer_logo{
         width: 600px;
         display: flex;
         flex-flow: column wrap;
-        justify-content:space-around;
+        justify-content:center;
         align-items: center;
         text-align: center;
         background: #FFFFFF;
@@ -760,6 +753,8 @@ x.footer_logo{
         text-align: center;
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     }
+
+
     
     .list_form h1{
         font-size: 2rem;
