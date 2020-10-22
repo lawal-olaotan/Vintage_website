@@ -150,7 +150,7 @@ nav{
     padding: 0 40px;
 }
 
-form{
+form,.waitform{
     
     height: 50%;
     width: 100%;
@@ -767,7 +767,6 @@ x.footer_logo{
     .list_form p {
         font-size: 1.5rem;
         font-weight: 400;
-        margin-bottom:50px;
     }
 
     .list_form input,.list_form select {
