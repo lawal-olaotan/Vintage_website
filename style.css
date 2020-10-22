@@ -204,15 +204,13 @@ textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     text-align:left;
   }
 
-
 form button{
     border: none;
-    border-radius: 8px;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 300;
     padding: 16px 24px;
     background-color: #00BF80;
-    color:black;
+    color:#FFFFFF;
 }
 
 
@@ -239,7 +237,7 @@ br{
 
 
 .form_content h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: left;
 }
 
@@ -655,6 +653,10 @@ br{
     .hero_container{
         height: 80vh;
     }
+
+    .hero_cont{
+        height: 90vh;
+    }
    
     .hero_main{
         height: 60vh;
@@ -665,7 +667,7 @@ br{
     }
 
     .hero_contact{
-        height: 70vh;
+        height: 80vh;
         gap: 30px;
     }
 
@@ -699,7 +701,7 @@ br{
 
     .hero_content h1{
         font-size: 4rem;
-        font-weight: 900;
+        font-weight: 700;
         margin-bottom:24px;
     }
     
@@ -718,9 +720,6 @@ br{
     form{
         height:auto;
         width: 80%;
-        display:flex;
-        flex-flow: column wrap;
-        justify-content: center;
     }
 
     .list_container{
