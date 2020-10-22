@@ -567,7 +567,7 @@ br{
     align-items: center;
     }
 
-.footer_logo{
+x.footer_logo{
     color: black;
     font-size: 3rem;
     font-weight:900;
@@ -759,23 +759,6 @@ br{
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     }
 
-    .waitform button{
-        font-family: "Roboto", sans-serif;
-        text-transform: uppercase;
-        outline: 0;
-        background: #00BF80;
-        width: 100%;
-        border: 0;
-        padding: 15px;
-        color: #FFFFFF;
-        font-size: 14px;
-        -webkit-transition: all 0.3 ease;
-        transition: all 0.3 ease;
-        cursor: pointer;
-    }
-    
-   
-
     .list_form h1{
         font-size: 2rem;
         font-weight: 900;
@@ -784,8 +767,9 @@ br{
     .list_form p {
         font-size: 1.5rem;
         font-weight: 400;
-        margin-bottom:20px;
+        margin-bottom:50px;
     }
+
     .list_form input,.list_form select {
         font-family: "Roboto", sans-serif;
         outline: 0;
@@ -797,6 +781,22 @@ br{
         box-sizing: border-box;
         font-size: 14px;
       }
+
+    .waitform button{
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        outline:none;
+        background: #00BF80;
+        width: 100%;
+        border: 0;
+        padding: 15px;
+        color: #FFFFFF;
+        font-size: 14px;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+        cursor: pointer;
+    }
+    
 
     .hero_btn{
         display: flex;
