@@ -823,12 +823,12 @@ br{
     }
 
     .contact_img{
-        background-image: url(./Contact_hero.png);
-        height: 80%;
+        background-image: url(./klipartz.com.png);
+        height: 100%;
     }
 
     .about_img{
-        background-image: url(./klipartz.com.png);
+        background-image: url(./nesa-by-makers-kwzWjTnDPLk-unsplash.jpg);
         border-radius: 8px;
     }
     
