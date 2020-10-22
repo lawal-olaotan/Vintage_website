@@ -749,6 +749,7 @@ br{
         display: flex;
         flex-flow: column wrap;
         justify-content:center;
+        gap: 30px;
         align-items: center;
         text-align: center;
         background: #FFFFFF;
