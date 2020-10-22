@@ -654,9 +654,7 @@ br{
         height: 80vh;
     }
 
-    .hero_cont{
-        height: 90vh;
-    }
+   
    
     .hero_main{
         height: 60vh;
@@ -666,8 +664,12 @@ br{
         justify-content: center;
     }
 
+    .hero_cont{
+        height: 90vh;
+    }
+
     .hero_contact{
-        height: 80vh;
+        height: 70vh;
         gap: 30px;
     }
 
@@ -679,6 +681,7 @@ br{
     .hero_content h1{
         font-size: 4rem;
         text-align: left;
+        font-weight: 800;
     }
 
     .hero_img {
@@ -701,7 +704,7 @@ br{
 
     .hero_content h1{
         font-size: 4rem;
-        font-weight: 700;
+        font-weight: 900;
         margin-bottom:24px;
     }
     
@@ -715,6 +718,15 @@ br{
     text-align: left;
     color: white;
     font-size: 1.5rem;
+    }
+    .form_content{
+        height:70vh;
+        max-width:600px;
+        background-color:white;
+        padding:25px;
+        justify-content: center;
+        align-content: center;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     }
 
     form{
