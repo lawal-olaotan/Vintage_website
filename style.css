@@ -716,7 +716,7 @@ br{
     }
 
     form{
-        height: 80%;
+        height:auto;
         width: 80%;
         display:flex;
         flex-flow: column wrap;
