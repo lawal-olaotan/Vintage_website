@@ -750,7 +750,7 @@ x.footer_logo{
         width: 600px;
         display: flex;
         flex-flow: column wrap;
-        justify-content: center;
+        justify-content:space-around;
         align-items: center;
         text-align: center;
         background: #FFFFFF;
@@ -758,7 +758,7 @@ x.footer_logo{
         text-align: center;
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     }
-
+    
     .list_form h1{
         font-size: 2rem;
         font-weight: 900;
