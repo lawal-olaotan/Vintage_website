@@ -11,9 +11,8 @@ body {
     font-family:'Nunito', sans-serif;
 }
 
-
 .logo a {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 900;
     text-align:left;
     padding: 7.5px 10px 7.5px 0 ;  
@@ -21,7 +20,9 @@ body {
 
 nav{
     background-color: #ffff;
-    padding: 0 64px;
+    padding: 0 24px;
+    justify-content: center;
+    align-content: center;
 }
 
 
@@ -59,6 +60,10 @@ nav{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
+  }
+ .active{
+      z-index: 1;
   }
   .menu li a {
     display: block;
@@ -67,7 +72,8 @@ nav{
   
   .toggle {
     order: 1;
-    font-size: 40px;
+    font-size: 2.5rem;
+    text-align: center;
   }
   .item.button {
     order: 2;
@@ -80,7 +86,7 @@ nav{
   }
   .active .item {
     display: block;
-    z-index: 1;
+   
   }
   .button.secondary {
     /* divider between buttons and menu links */
