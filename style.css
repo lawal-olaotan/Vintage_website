@@ -133,11 +133,9 @@ nav{
     align-items:center; 
 }
 
-
 .slider{
     display: none;
 }
-
 
 .hero_content { 
     width: 100%;
@@ -147,7 +145,6 @@ nav{
     justify-content: center;
     text-align: center;
 }
-
 
 .form_content{
     height:65vh;
@@ -160,13 +157,37 @@ nav{
 }
 
 form{
-    height: 80%;
+    height: 70%;
     width: 100%;
     justify-content:center;
     display:flex;
     flex-flow: column wrap;
-
 }
+
+.list_container{
+        height: 80vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#00BF80 ;
+    }
+
+.list_form{
+    height: 70vh;
+    width: 350px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
 
 .list_form h1{
     font-size: 2rem;
@@ -228,22 +249,6 @@ textarea{
     padding: 15px;
     box-sizing: border-box;
     font-size: 14px;
-}
-
-
-.list_form{
-    height: 80vh;
-    width: 600px;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content:center;
-    gap: 30px;
-    align-items: center;
-    text-align: center;
-    background: #FFFFFF;
-    padding: 25px;
-    text-align: center;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -792,15 +797,72 @@ br{
         width: 80%;
     }
 
-
+/* waitlist content */
     .list_container{
-        height: 100vh;
+        height: 80vh;
         width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color:#00BF80 ;
     }
+
+.list_form{
+    height: 60vh;
+    width: 600px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+.list_form h1{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.list_form p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+.list_form input,.list_form select {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+.waitform button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline:none;
+    background: #00BF80;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+
+/* waitlist content ends here  */
 
     .hero_btn{
         display: flex;
