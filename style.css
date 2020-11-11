@@ -153,14 +153,14 @@ nav{
     height:65vh;
     max-width:600px;
     background-color:white;
-    padding:25px;
+    padding:0 24px;
     justify-content: center;
     align-content: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 form{
-    height: 40%;
+    height: 80%;
     width: 100%;
     justify-content:center;
     display:flex;
@@ -774,6 +774,8 @@ br{
     color: white;
     font-size: 1.5rem;
     }
+    
+
     .form_content{
         height:70vh;
         max-width:600px;
@@ -784,10 +786,12 @@ br{
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     }
 
+
     form{
         height:auto;
         width: 80%;
     }
+
 
     .list_container{
         height: 100vh;
